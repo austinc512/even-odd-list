@@ -22,7 +22,6 @@ function handleSubmit() {
   }
 
   usersWord = "";
-  console.log(`this thing on?`);
   document.getElementById("even-odd-form").reset();
 }
 
