@@ -10,6 +10,11 @@ function updateWord(element) {
 }
 
 function handleSubmit() {
+    if (usersWord.length === 0) {
+    usersWord = "";
+    document.getElementById("even-odd-form").reset();
+    return;
+  }
   let newListItem = document.createElement("LI");
   newListItem.innerText = usersWord;
 
